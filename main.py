@@ -8,7 +8,12 @@ cutu_the_turtle.color("dark cyan")
 
 #How to make the object do certain things/FUNCTIONS
 cutu_the_turtle.forward(100) #moves forward by a 100 paces
-cutu_the_turtle.right(90.0) #turns right by 90 degress
+cutu_the_turtle.left(90.0) #turns right by 90 degress
+cutu_the_turtle.forward(100)
+cutu_the_turtle.left(90)
+cutu_the_turtle.forward(100)
+cutu_the_turtle.left(90)
+cutu_the_turtle.forward(100)
 
 
 
