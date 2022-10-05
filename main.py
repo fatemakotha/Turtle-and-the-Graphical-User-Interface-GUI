@@ -35,6 +35,15 @@ for _ in range(6):
     cutu.right(90)
     cutu.left(30) #each interior angle is 120degrees so 120-90 = 30degrees
 
+#TO DRAW AN HEPTAGON WITH SIDES 100:
+for _ in range(7):
+    cutu.pencolor("pink")
+    cutu.forward(100)
+    cutu.right(90)
+    cutu.left((900 / 7) - 90) #each interior angle is 900/7 degrees so (900/7)-90 = 38.57142857....
+
+
+
 
 
 
