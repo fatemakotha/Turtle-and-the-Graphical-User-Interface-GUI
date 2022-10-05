@@ -6,18 +6,10 @@ cutu = Turtle()
 # print(cutu_the_turtle) #window opens but dissapears
 cutu.shape("turtle") #makes the arrow change into a turtle
 cutu.color("dark cyan")
+cutu.pensize(10) #increases the width of the pen
 
 colours = ["blue", "red", "pink", "black", "purple", "green", "yellow"]
-def draw_shape(num_sides): #takes in num_sides = no_of_sides which is 3, 4, 5 ,6 ....11
-    interior_angle = 360 / num_sides
-    for _ in range(num_sides):
-        cutu.forward(100)
-        cutu.right(interior_angle)
 
-
-for no_of_sides in range(3, 11):
-    cutu.color(random.choice(colours))
-    draw_shape(no_of_sides) #no_of_sides: 3, 4, 5 ,6 ....11
 
 
 
