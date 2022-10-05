@@ -28,7 +28,12 @@ for _ in range(5):
     cutu.right(90)
     cutu.left(18) #each interior angle is 108degrees so 108-90 = 18degrees
 
-
+#TO DRAW AN HEXAGON WITH SIDES 100:
+for _ in range(6):
+    cutu.pencolor("purple")
+    cutu.forward(100)
+    cutu.right(90)
+    cutu.left(30) #each interior angle is 120degrees so 120-90 = 30degrees
 
 
 
