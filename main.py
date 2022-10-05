@@ -56,7 +56,12 @@ for _ in range(9):
     cutu.right(90)
     cutu.left(50) #each interior angle is 135degrees so 140-90 = 50degrees
 
-
+#TO DRAW AN DECAGON WITH SIDES 100:
+for _ in range(10):
+    cutu.pencolor("blue")
+    cutu.forward(100)
+    cutu.right(90)
+    cutu.left(54) #each interior angle is 144degrees so 144-90 = 54degrees
 
 
 
