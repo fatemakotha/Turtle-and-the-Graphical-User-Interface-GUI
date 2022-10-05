@@ -14,7 +14,11 @@ for _ in range(3):
     cutu.forward(100)
     cutu.right(90)
     cutu.right(30)
-
+#TO DRAW AN SQUARE WITH SIDES 100
+for _ in range(4):
+    cutu.pencolor("red")
+    cutu.forward(100)
+    cutu.right(90)
 
 
 
