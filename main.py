@@ -6,19 +6,31 @@ cutu = Turtle()
 cutu.shape("turtle") #makes the arrow change into a turtle
 cutu.color("dark cyan")
 
-#How to make the object do certain things/FUNCTIONS
-#TO DRAW AN EQUILATERAL TRIANGLE WITH SIDES 100
+#How to make the object do certain things/FUNCTIONS ***
 
+#TO DRAW AN EQUILATERAL TRIANGLE WITH SIDES 100:
 for _ in range(3):
     cutu.pencolor("cyan")
     cutu.forward(100)
     cutu.right(90)
-    cutu.right(30)
-#TO DRAW AN SQUARE WITH SIDES 100
+    cutu.right(30) #inside angle is 60degrees, so 90-60 = 30degrees
+
+#TO DRAW AN SQUARE WITH SIDES 100:
 for _ in range(4):
     cutu.pencolor("red")
     cutu.forward(100)
     cutu.right(90)
+
+#TO DRAW AN PENTAGON WITH SIDES 100:
+for _ in range(5):
+    cutu.pencolor("green")
+    cutu.forward(100)
+    cutu.right(90)
+    cutu.left(18) #each interior angle is 108degrees so 108-90 = 18degrees
+
+
+
+
 
 
 
