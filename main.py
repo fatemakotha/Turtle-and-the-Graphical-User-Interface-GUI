@@ -1,4 +1,4 @@
-from turtle import * #the asterisk * imports everything that's inside the turtle module
+from turtle import Turtle, Screen # imports the Turtle and Screen class that's inside the turtle module
 
 #Create a new Turtle OBJECT named cutu_the_turtle
 cutu = Turtle()
