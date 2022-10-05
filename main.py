@@ -44,13 +44,17 @@ for _ in range(7):
 
 #TO DRAW AN OCTAGON WITH SIDES 100:
 for _ in range(8):
-    cutu.pencolor("red")
+    cutu.pencolor("yellow")
     cutu.forward(100)
     cutu.right(90)
     cutu.left(45) #each interior angle is 135degrees so 135-90 = 45degrees
 
-
-
+#TO DRAW AN NONAGON WITH SIDES 100:
+for _ in range(9):
+    cutu.pencolor("black")
+    cutu.forward(100)
+    cutu.right(90)
+    cutu.left(50) #each interior angle is 135degrees so 140-90 = 50degrees
 
 
 
