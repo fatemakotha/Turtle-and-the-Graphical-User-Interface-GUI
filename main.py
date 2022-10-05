@@ -42,7 +42,12 @@ for _ in range(7):
     cutu.right(90)
     cutu.left((900 / 7) - 90) #each interior angle is 900/7 degrees so (900/7)-90 = 38.57142857....
 
-
+#TO DRAW AN OCTAGON WITH SIDES 100:
+for _ in range(8):
+    cutu.pencolor("red")
+    cutu.forward(100)
+    cutu.right(90)
+    cutu.left(45) #each interior angle is 135degrees so 135-90 = 45degrees
 
 
 
