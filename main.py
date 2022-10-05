@@ -9,7 +9,14 @@ cutu.color("dark cyan")
 cutu.pensize(10) #increases the width of the pen
 
 colours = ["blue", "red", "pink", "black", "purple", "green", "yellow"]
+cutu.forward(100)
 
+directions = [0, 90, 180, 270]
+
+for _ in range(20):
+    cutu.pencolor(random.choice(colours))
+    cutu.forward(30) #moves 30 units
+    cutu.setheading(random.choice(directions)) #changes the left&right to the degrees in the direction list
 
 
 
