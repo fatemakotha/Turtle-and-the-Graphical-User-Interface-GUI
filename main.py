@@ -7,9 +7,8 @@ cutu.shape("turtle") #makes the arrow change into a turtle
 cutu.color("dark cyan")
 
 #How to make the object do certain things/FUNCTIONS
-for _ in range(4):
-    cutu.forward(100) #moves forward by a 100 paces
-    cutu.left(90.0) #turns right by 90 degress
+# for _ in range(100):
+    cutu.pencolor("black") #changes the color of the drawing pen
 
 
 
