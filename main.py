@@ -15,13 +15,17 @@ cutu.speed(10) #we can either insert the int or the string. i.e. 0 or "fastest"
 
 # cutu.colormode(255) *** DOES NOT WORK
 turtle.colormode(255) #The issue is that your Turtle object (cutu) doesn't have a colormode method. There is one in the turtle module itself though.
-
-colours = ["blue", "red", "pink", "black", "purple", "green", "yellow"]
+def random_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    random_colour_tuple = (r, g, b) #created a tuple
+    return random_colour_tuple
 cutu.forward(100)
 directions = [0, 90, 180, 270]
 
 for _ in range(200):
-    cutu.pencolor(random.choice(colours))
+    cutu.pencolor(random_color()) #used the FUNCTION random_color **
     cutu.forward(30) #moves 30 units
     cutu.setheading(random.choice(directions)) #changes the left&right to the degrees in the direction list
 
