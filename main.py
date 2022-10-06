@@ -1,4 +1,5 @@
 import random
+import turtle
 from turtle import Turtle, Screen # imports the Turtle and Screen class that's inside the turtle module
 import random
 #Create a new Turtle OBJECT named cutu_the_turtle
@@ -12,10 +13,11 @@ cutu.pensize(10) #increases the width of the pen
 #CHANGING the SPEED of the turtle. 0 OR "fastest", 10 OR "fast", 6 OR "normal", 3 OR "slow", 1 OR "slowest" ***
 cutu.speed(10) #we can either insert the int or the string. i.e. 0 or "fastest"
 
+# cutu.colormode(255) *** DOES NOT WORK
+turtle.colormode(255) #The issue is that your Turtle object (cutu) doesn't have a colormode method. There is one in the turtle module itself though.
+
 colours = ["blue", "red", "pink", "black", "purple", "green", "yellow"]
-
 cutu.forward(100)
-
 directions = [0, 90, 180, 270]
 
 for _ in range(200):
