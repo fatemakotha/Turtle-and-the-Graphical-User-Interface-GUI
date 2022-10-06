@@ -22,18 +22,12 @@ def random_color():
     random_colour_tuple = (r, g, b) #created a tuple
     return random_colour_tuple
 cutu.forward(100)
-directions = [0, 90, 180, 270]
+directions = [0, 90, 180, 270] #these values are used in setheading() to point north south east west
 
 for _ in range(200):
     cutu.pencolor(random_color()) #used the FUNCTION random_color **
     cutu.forward(30) #moves 30 units
     cutu.setheading(random.choice(directions)) #changes the left&right to the degrees in the direction list
-
-
-
-
-
-
 
 
 
